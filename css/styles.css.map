@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAGA,AAAA,WAAW,CAAA;EACP,MAAM,EAAE,KAAK;CAChB;;AAED,AAAA,KAAK,CAAA;EACD,KAAK,EAPS,OAAO;CAQxB;;AACD,AAAA,WAAW,CAAA;EACP,KAAK,EAVS,OAAO;CAWxB",
+    "sources": [
+        "../getsassy/styles.scss"
+    ],
+    "names": [],
+    "file": "styles.css"
+}
