@@ -1,8 +1,22 @@
 $bgbrandmain:#ed802b;
 $bgbrandsecondary:#424278;
+$bgbrandmaintransparent:#ed7f2b70;
 
+
+#mainheader{
+    height: 10%;
+}
+
+.navbar-brand{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+}
 #headerlogo{
-    height: 100px;
+    height: 250%;
+    width: auto;
 }
 
 .logo{
@@ -10,4 +24,4 @@ $bgbrandsecondary:#424278;
 }
 .logo-small{
     color: $bgbrandsecondary;
-}
+}|

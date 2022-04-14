@@ -15,19 +15,19 @@
   body {
     font: 400 15px Lato, sans-serif;
     line-height: 1.8;
-    color: #818181;
+    color: #424278;
   }
   h2 {
     font-size: 24px;
     text-transform: uppercase;
-    color: #303030;
+    color: #424278;
     font-weight: 600;
     margin-bottom: 30px;
   }
   h4 {
     font-size: 19px;
     line-height: 1.375em;
-    color: #303030;
+    color:#424278;
     font-weight: 400;
     margin-bottom: 30px;
   }  
@@ -41,7 +41,7 @@
     padding: 60px 50px;
   }
   .bg-grey {
-    background-color: #f6f6f6;
+    background-color: #d8d8d8;
   }
   .logo-small {
     color: #f4511e;
@@ -56,11 +56,11 @@
     border: none;
     border-radius: 0;
   }
-  .thumbnail img {
+  /* .thumbnail img {
     width: 100%;
     height: 100%;
     margin-bottom: 10px;
-  }
+  } */
   .carousel-control.right, .carousel-control.left {
     background-image: none;
     color: #f4511e;
@@ -195,7 +195,7 @@
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
 <nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container">
+  <div id="mainheader" class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
         <span class="icon-bar"></span>
@@ -205,6 +205,7 @@
       <a class="navbar-brand" href="#myPage"><img id="headerlogo" src="./imgs/271167021_1818701655002538_2723936012653862660_n.jpg"></a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">
+      
       <ul class="nav navbar-nav navbar-right">
         <li><a href="#about">NOSOTROS</a></li>
         <li><a href="#services">SERVICIOS</a></li>
@@ -212,6 +213,7 @@
         <li><a href="#pricing">PRECIOS</a></li>
         <li><a href="#contact">CONTACTO</a></li>
       </ul>
+      </div>
     </div>
   </div>
 </nav>
@@ -236,7 +238,7 @@
       <h2>NOSOTROS</h2><br>
       <h4>Empresa dedicada al diseño e impresión de publicidad para todo tipo de eventos.</h4><br>
       <p>Somos una empresa 100% mexicana, con más de 30 años de experiencia en publicidad para todo tipo de eventos. Contamos con equipo para satisfacer cualquier requerimiento de impresión de gran formato y de alta resolución  ofreciendo los precios más competitivos en el mercado.</p>
-      <br><button class="btn btn-default btn-lg">CONTÁCTANOS</button>
+      <br><button class="btn btn-default btn-lg"><a href="#contact">CONTÁCTANOS</a></button>
     </div>
     <div class="col-sm-4">
       <span class="glyphicon glyphicon-signal logo"></span>
@@ -388,7 +390,7 @@
   
       </div>      
     </div>    
-  </div
+  </div>
 </div>
 
 <!-- Container (Contact Section) -->
@@ -397,8 +399,8 @@
   <div class="row">
     <div class="col-sm-5">
       <p>Contactenos y le responderemos lo más pronto posible.</p>
-      <p><span class="glyphicon glyphicon-map-marker"></span> CDMX, México</p>
-      <p><span class="glyphicon glyphicon-phone"></span> +52 55 55 71 36 58</p>
+      <p><span class="glyphicon glyphicon-map-marker"></span> Nte 13 282, Moctezuma 2da Secc, Venustiano Carranza, 15530 Ciudad de México, CDMX</p>
+      <p><span class="glyphicon glyphicon-phone"></span>55 55 71 36 58<br><span class="glyphicon glyphicon-phone"></span>55 27 73 28 62</p>
       <p><span class="glyphicon glyphicon-envelope"></span> expgrafica@gmail.com</p>
     </div>
     <div class="col-sm-7 slideanim">
@@ -421,8 +423,9 @@
 </div>
 
 <!-- Image of location/map -->
-<img src="./imgs/Captura de pantalla 2022-03-23 111840.png" class="w3-image w3-greyscale-min" style="width:100%">
 
+<a href="https://www.google.com.mx/maps/place/Nte+13+282,+Moctezuma+2da+Secc,+Venustiano+Carranza,+15530+Ciudad+de+M%C3%A9xico,+CDMX/@19.4263659,-99.1032984,15z/data=!3m1!4b1!4m5!3m4!1s0x85d1fc048ae3b1d1:0x5075ab95902108b3!8m2!3d19.4263661!4d-99.0945436"><img  src="./imgs/Captura de pantalla 2022-03-23 111840.png" class="w3-image w3-greyscale-min" style="width:100%">
+</a>
 <footer class="container-fluid text-center">
   <a href="#myPage" title="To Top">
     <span class="glyphicon glyphicon-chevron-up"></span>

@@ -1,5 +1,25 @@
+#mainheader {
+  height: 10%;
+}
+
+.navbar-brand {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
 #headerlogo {
-  height: 100px;
+  height: 250%;
+  width: auto;
 }
 
 .logo {
