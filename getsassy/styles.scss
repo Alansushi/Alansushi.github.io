@@ -24,4 +24,25 @@ $bgbrandmaintransparent:#ed7f2b70;
 }
 .logo-small{
     color: $bgbrandsecondary;
-}|
+}
+#mapa{
+    height: 100%;
+    
+}
+#footerlogo{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    justify-items: center;
+}
+.madewithlove{
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    align-content: center;
+    justify-content: center;
+    height: 200px;
+}
